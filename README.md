@@ -82,3 +82,4 @@ $ bash start.sh
 Noé Delforge,
 Alix Blondel,
 Margot Cahard.
+Un projet fait dans le cadre de la formation de Zone01.
