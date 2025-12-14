@@ -1,81 +1,80 @@
-        /* CSS Rendu plus esthétique (comme tu l'avais apprécié) */
-        body { 
-            font-family: Arial, sans-serif; 
-            padding: 40px; 
-            background-color: #f4f7f6;
-            color: #333;
-            max-width: 1000px;
-            margin: auto;
-        }
-        form { 
-            background: #ffffff;
-            padding: 30px; 
-            border-radius: 10px; 
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        h1, h2 {
-            color: #007bff;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        label {
-            display: block;
-            font-weight: bold;
-            margin-top: 15px;
-            margin-bottom: 5px;
-        }
-        textarea { 
-            width: 95%;
-            height: 120px;
-            padding: 12px;
-            border: 1px solid #ced4da;
-            border-radius: 5px;
-            resize: vertical;
-            font-size: 16px;
-        }
-        select {
-            padding: 10px;
-            border: 1px solid #ced4da;
-            border-radius: 5px;
-            font-size: 16px;
-            margin-top: 5px;
-        }
-        button[type="submit"] {
-            background-color: #28a745;
-            color: white;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-        button[type="submit"]:hover {
-            background-color: #218838;
-        }
-        pre { 
-            background: #212529;
-            color: #00ff88;
-            padding: 20px;
-            overflow-x: auto;
-            border-radius: 5px;
-            font-size: 1em;
-            line-height: 1;
-        }
-        .error { 
-            color: #dc3545;
-            background-color: #f8d7da;
-            border: 1px solid #f5c6cb;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: bold; 
-            margin-bottom: 20px;
-        }
-        .placeholder-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            opacity: 0.8;
-        }
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 40px; 
+    background-color: #f4f7f6;
+    color: #333;
+    max-width: 1000px;
+    margin: auto;
+}
+form { 
+    background: #ffffff;
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+h1, h2 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+textarea { 
+    width: 95%;
+    height: 120px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 16px;
+}
+select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+pre { 
+    background: #212529;
+    color: #00ff88;
+    padding: 20px;
+    overflow-x: auto;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 1;
+}
+.error { 
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+.placeholder-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    opacity: 0.8;
+}
