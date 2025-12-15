@@ -50,9 +50,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		Error        string
 		InputIsEmpty bool // Ajout du flag pour le rendu personnalisé
 		RandomImage  string
+		OutputColor  string
 	}{
 		Alphabet:    "standard",
 		RandomImage: RandImage,
+		OutputColor: "white",
 	}
 
 	// GESTION DU POST
@@ -66,6 +68,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 		data.Input = strings.TrimSpace(r.FormValue("input_text"))
 		data.Alphabet = r.FormValue("alphabet_choisi")
+		data.OutputColor = r.FormValue("output-color")
+
+		if data.OutputColor == "" {
+			data.OutputColor = "white"
+		}
 
 		// 2. LOGIQUE PERSONNALISÉE pour input vide
 		if data.Input == "" {
